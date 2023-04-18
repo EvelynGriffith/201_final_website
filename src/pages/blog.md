@@ -11,16 +11,12 @@ eleventyNavigation:
 
 ### President: Pallas-Athena(Pallas) Cain
 
-##### Fun Fact:
+##### Fun Fact: She has never eaten a hamburger!
 
 ### Vice President: Ethan Borshe
 
-##### Fun Fact:
+##### Fun Fact: Julia loves cats!
 
 ### Treasurer: Julia DeSanto
 
-##### Fun Fact:
-
-### 
-
-
+##### Fun Fact: Ethan is a math major!
