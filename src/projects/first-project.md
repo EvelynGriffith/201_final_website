@@ -1,10 +1,16 @@
 ---
-title: Pallas-Athena Cain
+title: President
 emoji: 😺
 metaDescription: Pallas 
 date: 2019-01-01T00:00:00.000Z
-summary: Come meet your fearless leader!
+summary: Come meet your fearless leader, Pallas-Athena Cain!
 
 ---
 
 ### About Pallas
+
+Add info about Pallas here as well as some info about what she does.
+
+##### Contact Information
+
+Email: cain01@allegheny.edu
