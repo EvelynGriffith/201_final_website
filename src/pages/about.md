@@ -1,7 +1,7 @@
 ---
-title: About Me
+title: About ARGO
 subtitle: ""
-metaDescription: This page is all about me
+metaDescription: What is ARGO?!
 date: 2017-01-01T00:00:00.000Z
 permalink: /about/index.html
 eleventyNavigation:
