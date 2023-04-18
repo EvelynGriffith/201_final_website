@@ -1,82 +1,97 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5702ba89-7242-490e-b04d-e4a691faced5/deploy-status)](https://app.netlify.com/sites/fernfolio/deploys)
+# Project
 
-# Fernfolio — An 11ty Portfolio Template
-Launch your personal portfolio in minutes and modify content without opening a code editor!
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/MvgsrTWB)
 
-<img width="1280" alt="fernfolio screenshot" src="https://raw.githubusercontent.com/TylerMRoderick/fernfolio-11ty-template/master/fernfolio-preview.jpeg">
+## Table of Contents
 
-### <pre>🖥  [Demo](https://fernfolio.netlify.app/)</pre>
+- [Summary](#summary)
+- [Project Descriptions](#project-descriptions)
+- [Project Requirements](#project-requirements)
+- [Required Deliverables and Deadlines](#required-deliverables-and-deadlines)
+- [Running and Testing](#running-and-testing)
+- [Project Assessment](#project-assessment)
+- [Receiving Assistance](#receiving-assistance)
 
-## 🤔 What is this?
-An [Eleventy](https://www.11ty.io/) theme designed to simplify the process of creating a beautiful portfolio and blog. Tightly integrated with [Netlify CMS](https://www.netlifycms.org/) for flexible, Git-powered content management.
+## Summary
 
-## ✨ Features
-* Deep integration with [Netlify CMS](https://www.netlifycms.org/). Modify content without opening a code editor.
-* Customizable blog and project pages with tag support
-* Working contact form powered by [Netlify Forms](https://www.netlify.com/products/forms/)
-* Fast page speeds and high lighthouse scores
-* Uses Markdown for content files and Nunjucks for layouts
-* 100% Javascript framework free
-* SCSS support with sane base styles
-* Continuous Deployment workflow via [Netlify](https://www.netlify.com/)
-* Responsive images generated at build time
-* Minified HTML with [HTMLMinifier](https://github.com/kangax/html-minifier)
-* Minified CSS with [cssnano](https://github.com/cssnano/cssnano)
-* [Turbolinks](https://github.com/turbolinks/turbolinks) integration to enable instant navigation without page refresh
-* Useful Nunjuck filters built in
+Throughout the semester, you have learned the underlying workings of the programming language design and experimented with various programming languages. The course project invites you to explore, in greater detail, specific programming language(s) design or applications of languages.
 
+Your project should result in a detailed project repository that includes all of your source code, in addition to written materials and technical diagrams that highlight the key contributions of your work. Part of written materials must include a technical report with a description of why the chosen topic is important and discuss the implementation and/or experimentation that you undertook. The written material should be precise, formal, appropriately formatted, grammatically correct, informative, and interesting. The source code that you write must be carefully documented and tested. If you install and use existing computer software, the steps for installation and use should be clearly documented in your report. Also, the report must explain the steps to run your programs. Finally, if you work in a team, your report must detail the work completed by each member of your team; individual contributions should also be reflected in commits to the team's repository. In addition to writing the aforementioned final report in Markdown, you will also use Markdown to write and submit a project proposal.
 
-## 🚀 Quick Start
-### 1. Click the "Deploy to Netlify" button below
+## Project Descriptions
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/TylerMRoderick/fernfolio-11ty-template&stack=cms)
+Students are invited to pick one of the following projects. Please note that a student or a team selecting the student-designed project must first discuss the idea with the course instructor, and receive feedback and then final approval. Please note that you are fully responsible for ensuring the feasibility of the final project that is proposed.
 
-This will clone this repo to your github account and will deploy a copy of the demo website to your Netlify
-account (you can create an account during this process if you don't have one).
+1. **New Language**: Design and implement your own programming language. It can be very small but it must contain and specify all of the components pertaining to a programming language, and have some purpose/application behind it.
 
-### 2. Setup authentication
+2. **Combination**: Select a realistic problem and implement a solution to it using a combination (at least two) of programming languages (Java and Python is not an appropriate combination). The languages must interact with each other in some way. You are allowed to make use of tools that help bridge the gap between languages. You need to be able to justify how mixing languages is beneficial for the problem you have chosen.
 
-After deploying this project, Netlify Identity will add you as a CMS user and
-will email you an invite. Open that email, hit the "Accept the invite" link, and that should redirect you to the deployed site. From there, you can add your password to finish user setup.
+3. **Lox Interpreter**: Implement virtual machine for the lox interpreter by following [Section III](https://craftinginterpreters.com/a-bytecode-virtual-machine.html) of the Crafting Interpreters book. Add an enhancement to make it your own. If you pursue this project, please include your implementation in the interpreter repository that one of your team members worked on, not in the `src/` directory of this repository.
 
-### 3. Edit some content
-Now that you are added as a CMS user, add `/admin` to the end of your site url, refesh the page, and log in using your new credentials. You should now see the content dashboard. Now you can start editing content!
+4. **Translation**: Select two languages and write a translation program that takes a program written in one language and translates it into another language. It does not need to be very complicated or sophisticated, you may choose which aspects of programming languages you want to incorporate and which you want to avoid. Select existing programs or write your own as test cases; your translator should be able to translate at least 200 lines of code - combined from your test cases.
 
-Any changes saved in the CMS will trigger a git commit in your repo. That new commit will then trigger an auto-deployplent on Netlify.
+5. **Student-Designed Project**: Students will develop an idea for their own project that focuses on one or more real-world topics in the field of programming languages. After receiving the course instructor's approval for your idea, you will complete the project and report on your results.
 
-## 🏠 Local Development
-If you want to test things locally before deploying, follow the steps below:
+## Project Requirements
 
-- open your terminal
-- Clone the repo locally `git clone https://github.com/TylerMRoderick/fernfolio-11ty-template.git`
-- Navigate to root folder: `cd fernfolio-11ty-template/`
-- Install the goods: `npm install`
-- Run it: `npm start`
-- You should now be able to see everything running on localhost:8080
+Please note that the course instructor expects students to implement and evaluate all of the source code needed to complete their proposed project. As such, there are no provided source code files for this assignment. You must store your programs in an `src` directory. You will also need to edit the three Markdown files in the `writing/directory` by the stated deadline.
 
-## 💻 Development Scripts
+There are no GatorGrader code checks since each final project is different. In GatorGrader's absence, you should establish correctness checks for your source code. Importantly, you must implement test cases to assess your programs' correctness. Also, make sure to regularly commit to your GitHub repository.
 
-**`npm start`**
+## Required Deliverables and Deadlines
 
-> Run 11ty with hot reload at localhost:8080
+### Summary of Deliverables
 
-**`npm run build`**
+This assignment invites you to submit, using GitHub, the following deliverables.
 
-> Generate minified production build
+1. Completed, correct, fully commented, and properly formatted versions of all source code files, saved in the `src/` directory.
 
-Use this as the "Publish command" if needed by hosting such as Netlify.
+2. A three-paragraph written proposal, saved in the file `writing/proposal.md`, with an informative title, a description of the main idea, an initial listing of the tasks that you must complete, and a plan that you will follow to complete the work.
 
-## 🎩 Common issues
+3. Participation in a Code Walkthrough. Code Walkthrough is a peer review of the code in which an author of the code leads the review process and the reviewers ask questions and spot possible errors. The technical leaders and the instructor will act as the reviewers. Each project's team members (or a single member) is considered to be an author of the code. For each written program, the author(s) will describe the written program by going through the code line by line and explaining the purpose of each line or a sequence of lines. The reviewers will provide feedback at the end of the review of each program or a complete review of programs, as appropriate. At the end of the walkthrough, the reviewers will report a list of findings and also identify high level action items, which will include the required next steps for the author(s) to take.
 
-If you change the repo that was created at deploy time from public to private, you'll need to regenerate your token,
-as the token generated using the deploy to Netlify button can only access public repositories. To
-regenerate your token, head to "Settings" in your Netlify site dashboard, go to the "Identity"
-section, then scroll to "Services" where you'll see an "Edit settings" button. Click that and you'll
-see a text link to "Generate access token in GitHub".
+4. A detailed final project report, saved in the file `writing/report.md`, that documents, in a project-specific fashion, how you designed, implemented, and evaluated your system. This Markdown-based document should also explain and include the input, output, and the challenges that you confronted when implemented the project. For every challenge that you encountered, please explain your solution for it. If worked in a team, this document should also explain how your team collaborated to finish the assignment, with each team member writing their own paragraph inside of this Markdown file. Finally, your report should include information on how to compile/run your system and if there are dependencies beyond what is included in the `progator`, specify commands necessary to install these dependencies.
 
-## 🗣 Bug reports, feature requests, etc.
+5. A commit log in your GitHub repository that clearly shows incremental progress made on the assignment.
 
-This is a fun side project for me and I always welcome questions/comments. If you run into any problems or have a feature request, please open an issue. I try to read every one and will gladly assist you whenever possible.
+### Deadlines
 
-## Credit
-*This project was originally forked from [eleventy-netlify-boilerplate](https://github.com/danurbanowicz/eleventy-netlify-boilerplate), but completely revamped to match the needs of a modern porfolio.*
+You must complete all of the aforementioned deliverables by the following due dates:
+
+1. **Project Proposal: Friday, April 14th, 2023**: After brainstorming ideas during the class session, pick a topic for your final project. Remember, if you select the student-designed project, you must first have your project approved by the course instructor. Next, make sure that you accept the assignment and create a GitHub repository for the project. Finally, write and submit a proposal for your project. Your proposal should have an informative title, a description of the main idea, an initial listing of the tasks that you must complete, and a plan for completing the work.
+
+2. **Code Walkthrough: Tuesday, April 25th, 2023**: You should give a demonstration, during the laboratory session, highlighting the most important code that you have finished. Code walkthrough is an informal process where code is reviewed for technical accuracy with the objective of finding errors and improving the quality of the code. The author(s) of the code lead the code walkthrough. The main purpose of walkthrough is to help authors gain an understanding of the content of the project and identify its potential flaws. Note that the goal of a walkthrough is an error detection, not error correction. When the walkthrough is finished, the author of the output is responsible for taking the necessary actions to correct the errors.
+
+3. **Final Project Due Date: Monday, May 1st, 2023 by midnight**: You should submit the final version of your project through your project's GitHub repository. This submission should include all of the relevant source code and output, the written reports, and any additional materials that will demonstrate the success of your project. While you are encouraged to turn in the final project earlier, students must submit the completed assignment no later than 11:59 pm on the due date.
+
+## Running and Testing
+
+### Docker Instructions
+
+You can use course's Docker environment if needed for running and testing your project.
+
+You should already have the [progator Docker Image](https://hub.docker.com/repository/docker/janyljumadinova/progator). If not, you can download automated build from public Docker Hub Registry:
+
+`docker pull janyljumadinova/progator`
+
+Once you have the Docker image, you can mount a directory as a volume with the argument *-v /your-path/:/root/ like this :
+
+`docker run -d -p 80:80 -v /your-path/:/root/environment janyljumadinova/progator`
+
+#### Accessing the IDE
+
+<http://localhost>
+
+## Project Assessment
+
+The grade that a student receives on this assignment will have the following components:
+
+- **Proposal [up to 10% of the project grade]**: Completed proposal document satisfying requirements of the proposal document specified above.
+
+- **Code Walkthrough [up to 20% of the project grade]**: Participation in the walthrough with explanations presented during the walkthrough revealing a thorough understanding of the code. Every member of the team is expected to explain some part of the code written by the team. The reviewer reserves to question any member of the team to assess their understanding.
+
+- **Implementation and Report [up to 70% of the project grade]**: As a part of this grade, the instructor will assess aspects of the project including, but not limited to, the correct and useful source code and Markdown report, its evaluation, the use of effective source code comments and Git commit messages. Your grade will be reduced if insufficient details are provided on how to run your source code or if it does not describe the necessary input to your system or does not include its sample output. Your grade will also be reduced if the commit log does not show consistent, individual contributions, or if an individual contribution is significantly lower than that of the other team members.
+
+## Receiving Assistance
+
+If you are having trouble completing any part of this project, then please talk with either the course instructor or a student technical leader during the lab session. Alternatively, you may ask questions in the Slack workspace for this course. Finally, you can schedule a meeting during the course instructor's office hours.
