@@ -1,10 +1,10 @@
 ---
 layout: projects.njk
-title: Projects
+title: Meet the Board!
 date: 2021-01-01
 permalink: /projects/index.html
-metaDescription: A sample Projects page
-subtitle: This is the page where all projects will live
+metaDescription: A page regarding the board of the club!
+subtitle: Come meet the leaders of ARGO!
 emoji: 💻
 eleventyNavigation:
   key: Projects
