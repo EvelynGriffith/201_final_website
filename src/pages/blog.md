@@ -8,15 +8,3 @@ eleventyNavigation:
   key: blog
   order: 1
 ---
-
-### President: Pallas-Athena(Pallas) Cain
-
-##### Fun Fact: She has never eaten a
-
-### Vice President: Ethan Borshe
-
-##### Fun Fact: Julia loves cats!
-
-### Treasurer: Julia DeSanto
-
-##### Fun Fact: Ethan is a math major!
