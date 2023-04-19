@@ -1,5 +1,5 @@
 ---
-title: Vice President, Ethan Borshe
+title: Vice President, Ethan Borsh
 emoji: 😄
 metaDescription: Come meet your vice president!
 date: 2019-01-01T00:00:00.000Z
