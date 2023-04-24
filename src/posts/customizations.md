@@ -5,7 +5,6 @@ summary: ARGO Formal!
 tags:
   - Formal
   - ARGO
-  - Pallas's Dad
 ---
 
 ### ARGO Formal Highlights!
