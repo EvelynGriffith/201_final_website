@@ -8,5 +8,5 @@ subtitle: Generate a name for your next campaign!
 emoji: 💻
 eleventyNavigation:
   key: Name
-  order: 3
+  order: 5
 ---
