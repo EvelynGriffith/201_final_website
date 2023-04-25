@@ -2,7 +2,7 @@
 layout: projects.njk
 title: Meet the Board!
 date: 2021-01-01
-permalink: /projects/index.html
+permalink: /Board Members/index.html
 metaDescription: A page regarding the board of the club!
 subtitle: Come meet the leaders of ARGO!
 emoji: 💻
