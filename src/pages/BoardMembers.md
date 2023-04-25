@@ -7,6 +7,6 @@ metaDescription: A page regarding the board of the club!
 subtitle: Come meet the leaders of ARGO!
 emoji: 💻
 eleventyNavigation:
-  key: Projects
+  key: Board Members
   order: 3
 ---

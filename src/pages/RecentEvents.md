@@ -9,6 +9,6 @@ permalink: "Recent Events{% if pagination.pageNumber > 0 %}/page/{{ pagination.p
 metaDescription: A sample Blog page listing various posts.
 subtitle: A log of our recent events!
 eleventyNavigation:
-  key: Blog
+  key: Recent Events
   order: 2
 ---
