@@ -3,9 +3,9 @@ title: Name Generator
 subtitle: ""
 metaDescription: name generation AI
 date: 2017-01-01T00:00:00.000Z
-permalink: /about/index.html
+permalink: /Name Generator/index.html
 eleventyNavigation:
-  key: Name Generator
+  key: NameGenerator
   order: 1
 ---
 
