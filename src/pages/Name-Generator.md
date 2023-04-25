@@ -10,4 +10,3 @@ eleventyNavigation:
 ---
 
 Pallas must add her generation device
-
