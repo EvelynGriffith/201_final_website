@@ -10,3 +10,5 @@ summary: Come meet your brand new secretary!
 ### About Mordred
 
 Add some information about Mordred!
+
+![Picture of Mordred](/src/assets/img/mordred.png "Secretary Mordred!")
