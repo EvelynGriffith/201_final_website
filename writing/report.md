@@ -10,6 +10,14 @@ Our website includes languags such as JavaScript, SCSS, Nunjucks, Python, and a 
 Evaluation and Testing of your Program
 TODO: include program input and output and output of test cases in code blocks
 
+Input (list directories and files with info) 
+
+Output ( screenshot of website) 
+
+Testing ( table of functionalities / put through application that tests user experience)
+
+
+
 TODO: include commands needed to run and test your project
 
 Description of the challenges that you faced and how you resolved them
