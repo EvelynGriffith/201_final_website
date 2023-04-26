@@ -8,3 +8,6 @@ eleventyNavigation:
   key: Inventory/Google Drive
   order: 1
 ---
+
+<h5\>
+<a href="https://www.linkedin.com/in/evelyn-griffith-463177253/" target="_blank">ARGO's Google Drive</a><br><br><a href="https://github.com/EvelynGriffith" target="_blank">Evelyn's Github Page</a></h5>
