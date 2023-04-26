@@ -2,8 +2,8 @@
 layout: base.njk
 section: contact
 ---
-<div class="home-page">
   {# Articles #}
+</div>
   <div class="list-header">
     <h2 class="list-header__title">Recent Events:</h2>
     <a class="btn btn--outline btn--sm" href="/blog">View All</a>
