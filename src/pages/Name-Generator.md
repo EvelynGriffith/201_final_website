@@ -1,6 +1,6 @@
 ---
 title: Name Generator
-layout: contact.njk
+layout: page.njk
 subtitle: ""
 metaDescription: name generation AI
 date: 2017-01-01T00:00:00.000Z
