@@ -15,7 +15,7 @@ eleventyNavigation:
     <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
   </head>
   <body>
-  <py-script>
+  <py-repl>
       import numpy as np
       import sys
       import random
@@ -137,6 +137,6 @@ eleventyNavigation:
           return generated
 
       print(generate_text(500, .9))
-  </py-script>
+  </py-repl>
   </body>
 </html>
