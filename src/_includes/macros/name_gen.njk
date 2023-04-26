@@ -1,21 +1,21 @@
-{% macro name_generator(name_generator, show_tags = true, limit) %}
+{% macro articlelist(articles, show_tags = true, limit) %}
   <section>
-  {% for name in name_generator %}
+  {% for article in articles %}
     {% if limit === undefined or loop.index0 < limit %}
-      <name
-        class="name-card {% if show_tags %}name-card--tags{% endif %}"
-        {% if name.url == url %} data-current="current item"{% endif %}
+      <article
+        class="article-card {% if show_tags %}article-card--tags{% endif %}"
+        {% if article.url == url %} data-current="current item"{% endif %}
       >
-        <a class="name-card__link" href="{{ name.url | url }}">
-          <h5 class="name-card__title">{{ name.data.title }}</h5>
-          {% if name.data.summary %}
-            <p class="name-card__summary">
-              {{ name.data.summary }}
+        <a class="article-card__link" href="{{ article.url | url }}">
+          <h5 class="article-card__title">{{ article.data.title }}</h5>
+          {% if article.data.summary %}
+            <p class="article-card__summary">
+              {{ article.data.summary }}
             </p>
           {% endif %}
-          {% if name.data.tags and show_tags %}
+          {% if article.data.tags and show_tags %}
             <p class="tag-list">
-              {% for tag in name.data.tags %}
+              {% for tag in article.data.tags %}
                 {%- if tag != "post" -%}
                   {% set tagUrl %}/tags/{{ tag }}/{% endset %}
                 <a class="tag" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
@@ -24,7 +24,7 @@
             </p>
           {% endif %}
         </a>
-      </name>
+      </article>
     {% endif %}
   {% endfor %}
   </section>
