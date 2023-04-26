@@ -44,3 +44,14 @@ section: home
     limit = 3
   ) }}
 </div>
+  <div class="name-generator">
+    <h2 class="name-generator__title">Name Generator</h2>
+    <a class="btn btn--outline btn--sm" href="/Name-Generator">View All</a>
+  </div>
+  {% from "partials/name_gen.njk" import contact-form %}
+  {{ articlelist(
+    articles = collections.post | reverse,
+    show_tags = false,
+    limit = 3
+  ) }}
+</div>
