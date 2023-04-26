@@ -1,0 +1,31 @@
+{% macro name_generator(name_generator, show_tags = true, limit) %}
+  <section>
+  {% for name in name_generator %}
+    {% if limit === undefined or loop.index0 < limit %}
+      <name
+        class="name-card {% if show_tags %}name-card--tags{% endif %}"
+        {% if name.url == url %} data-current="current item"{% endif %}
+      >
+        <a class="name-card__link" href="{{ name.url | url }}">
+          <h5 class="name-card__title">{{ name.data.title }}</h5>
+          {% if name.data.summary %}
+            <p class="name-card__summary">
+              {{ name.data.summary }}
+            </p>
+          {% endif %}
+          {% if name.data.tags and show_tags %}
+            <p class="tag-list">
+              {% for tag in name.data.tags %}
+                {%- if tag != "post" -%}
+                  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+                <a class="tag" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+                {%- endif -%}
+              {% endfor %}
+            </p>
+          {% endif %}
+        </a>
+      </name>
+    {% endif %}
+  {% endfor %}
+  </section>
+{% endmacro %}
