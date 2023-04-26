@@ -1,11 +1,11 @@
 ---
-title: Inventory
+title: Google Drive Links!
 subtitle: ""
 metaDescription: Inventory and google drive links
 date: 2017-01-01T00:00:00.000Z
-permalink: /Inventory/index.html
+permalink: /Google Drive Links/index.html
 eleventyNavigation:
-  key: Inventory/Google Drive
+  key: Google Drive Links
   order: 1
 ---
 
