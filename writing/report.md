@@ -16,6 +16,20 @@ Output ( screenshot of website)
 
 Testing ( table of functionalities / put through application that tests user experience)
 
+| Functionality                                                                  | Does it work? |
+|--------------------------------------------------------------------------------|---------------|
+| Global, Home button icon (swords)                                              | Yes           |
+| Global, Pull-out menu with website pages ( When minimized )                    | Yes           |
+| Global, tabs for each of the pages ( When full-screen)                         | Yes           |
+| From main page, view all board members button takes to board members page      | No            |
+| From main page, view all recent events button takes to recent events page      | No            |
+| Google Drive Links page, links working                                         | Yes           |
+| Name Generator page, Name Generator working                                    | No            |
+| About page, Display information working                                        | Yes           |
+| Recent Events page, Recent events articles displaying                          | No            |
+| Meet the Board page, clickable board member buttons to specific member pages   | Yes           |
+| Board member pages, View All Members button taking back to Meet the Board page | No            |
+| Contact Page, Send a message to the club                                       | Yes           |
 
 
 TODO: include commands needed to run and test your project
