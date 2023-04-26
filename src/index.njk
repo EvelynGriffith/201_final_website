@@ -48,7 +48,7 @@ section: home
     <h2 class="name-generator__title">Name Generator</h2>
     <a class="btn btn--outline btn--sm" href="/Name-Generator">View All</a>
   </div>
-  {% from "partials/name_gen.njk" import contact-form %}
+  {% from "macros/name_gen.njk" import articlelist %}
   {{ articlelist(
     articles = collections.post | reverse,
     show_tags = false,
