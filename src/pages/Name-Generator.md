@@ -18,8 +18,11 @@ eleventyNavigation:
   <body>
   <py-script>
       import numpy as np
+
       import sys
+
       import random
+      
       from keras.callbacks import LambdaCallback
 
       from tensorflow.keras.models import Sequential
