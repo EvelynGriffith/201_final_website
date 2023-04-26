@@ -7,5 +7,5 @@ section: contact
   <hr/>
   {{ layoutContent | safe }}
 
-  {% include "partials/form.njk" %}
+  {% include "partials/name_gen.njk" %}
 </div>
