@@ -2,10 +2,16 @@
 layout: base.njk
 section: contact
 ---
-<div class="page-container">
-  <h1>{{ title }}</h1>
-  <hr/>
-  {{ layoutContent | safe }}
-
-  {% include "partials/form.njk" %}
+<div class="home-page">
+  {# Articles #}
+  <div class="list-header">
+    <h2 class="list-header__title">Recent Events:</h2>
+    <a class="btn btn--outline btn--sm" href="/blog">View All</a>
+  </div>
+  {% from "pages/name_gen_ai.py" import name_gen_ai.py %}
+  {{ articlelist(
+    articles = collections.post | reverse,
+    show_tags = false,
+    limit = 3
+  ) }}
 </div>
