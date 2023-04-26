@@ -1,5 +1,6 @@
 ---
 title: Name Generator
+layout: about.njk
 subtitle: ""
 metaDescription: name generation AI
 date: 2017-01-01T00:00:00.000Z
@@ -12,7 +13,7 @@ eleventyNavigation:
 <html>
   <head>
     <script defer src="https://pyscript.net/latest/pyscript.js"></script>
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css"/>
   </head>
   <body>
   <py-repl>
