@@ -29,8 +29,8 @@ Testing ( table of functionalities / put through application that tests user exp
 | Global, Home button icon (swords)                                              | Yes           |
 | Global, Pull-out menu with website pages ( When minimized )                    | Yes           |
 | Global, tabs for each of the pages ( When full-screen)                         | Yes           |
-| From main page, view all board members button takes to board members page      | No            |
-| From main page, view all recent events button takes to recent events page      | No            |
+| From main page, view all board members button takes to board members page      | Yes           |
+| From main page, view all recent events button takes to recent events page      | Yes           |
 | Google Drive Links page, links working                                         | Yes           |
 | Name Generator page, Name Generator working                                    | No            |
 | About page, Display information working                                        | Yes           |
