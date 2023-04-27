@@ -1,5 +1,5 @@
 ---
-title: Images can be added to posts
+title: LARGO Gets Friendzoned!
 date: 2020-02-03T08:00:00.000Z
 summary: LARGO Gets Friend Zoned took place on February 17th and 18th, 2023
 tags:
@@ -8,7 +8,7 @@ tags:
   - gaming
 ---
 
-![largo Friendzoned](src/assets/img/largo_gets_friend_zoned.png "LARGO Gets Friendzoned")
+![largo Friendzoned](src\assets\img\largo_gets_friend_zoned.png "LARGO Gets Friendzoned")
 
 ### LARGO Gets Friendzoned!
 
