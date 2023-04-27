@@ -11,9 +11,12 @@ Our website includes languags such as JavaScript, SCSS, Nunjucks, Python, and a 
 ## Evaluation and Testing of your Program
 TODO: include program input and output and output of test cases in code blocks
 
-Input (list directories and files with info) 
+Input (list directories and files with info):
 
-Output ( screenshot of website) 
+Output (screenshots of the website):
+![ARGO_main_page](../images/crabbot_one.jpg)
+
+
 
 Testing ( table of functionalities / put through application that tests user experience)
 
@@ -39,4 +42,4 @@ TODO: include commands needed to run and test your project
 TODO
 
 ## If worked in a team, description of the way in which you and your team members shared the project workload
-We split the workload in half when it came to customization and we made design choices as a team. All the photos and information on the club came directly from Pallas since she is the president. Evelyn worked a lot with making the different page structures work and adding the website's functionalites. Pallas made the AI that generated the names. Both of us had to work together to figure out how to get the Python program onto the website without it breaking. Pallas also worked on testing the website. We both worked on de-bugging the website.
+We split the workload in half when it came to customization and we made design choices as a team. All the photos and information on the club came directly from Pallas since she is the president. Evelyn worked a lot with making the different page structures work and adding the website's functionalites. Pallas made the AI that generated the names. Both of us had to work together to figure out how to get the Python program onto the website without it breaking. Pallas also worked on testing the website and making the diagram. We both worked on de-bugging the website.
