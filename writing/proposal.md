@@ -1,4 +1,4 @@
-# Informative Title for the Project
+# Allegheny Role-playing and Gaming Organization (ARGO) Club Website
 
 Allegheny Role-Play and Gaming Organization (ARGO) Website
 
