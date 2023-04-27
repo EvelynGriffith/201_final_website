@@ -9,7 +9,7 @@ tags:
   - Prizes!
 ---
 
-![ARGOgetslucky](src\assets\img\argo_gets_lucky.jpg "Argo gets lucky")
+![ARGOgetslucky](/src/assets/img/argo_gets_lucky.jpg "Argo gets lucky")
 
 ### ARGO Gets Lucky!
 
