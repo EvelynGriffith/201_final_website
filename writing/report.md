@@ -36,7 +36,7 @@ Testing ( table of functionalities / put through application that tests user exp
 | About page, Display information working                                        | Yes           |
 | Recent Events page, Recent events articles displaying                          | No            |
 | Meet the Board page, clickable board member buttons to specific member pages   | Yes           |
-| Board member pages, View All Members button taking back to Meet the Board page | No            |
+| Board member pages, View All Members button taking back to Meet the Board page | Yes           |
 | Contact Page, Send a message to the club                                       | Yes           |
 
 TODO: include commands needed to run and test your project
