@@ -10,7 +10,7 @@ tags:
   - Potion Making
 ---
 
-![Picture of Pallas](/src/assets/img/pallas.png "President Pallas-Athena")
+![ARGO Poster](/src/assets/img/argo_formal_poster.jpg "ARGO Formal Poster")
 
 ### More about ARGO Formal!
 
