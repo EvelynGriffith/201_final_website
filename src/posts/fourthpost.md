@@ -8,8 +8,8 @@ tags:
   - gaming
 ---
 
+![largo Friendzoned](src/assets/img/largo_gets_friend_zoned.png "LARGO Gets Friendzoned")
+
 ### LARGO Gets Friendzoned!
 
 This event was a two day long celebration of platonic live in which there were several fun activities such as a Friendship Party, Board-game night, Mario Kart Tournament, and a Platonic Appreciation Video Game Night!
-
-<!-- ![largo Friendzone](src/assets/img/largo_gets_friend_zoned.png "LARGO Gets Friendzoned") -->
