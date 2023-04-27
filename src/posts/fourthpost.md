@@ -8,7 +8,7 @@ tags:
   - gaming
 ---
 
-![largo Friendzoned](src\assets\img\largo_gets_friend_zoned.png "LARGO Gets Friendzoned")
+![ARGO Friendzoned Poster](/src/assets/img/largo_gets_friend_zoned.jpg "ARGO Formal Poster")
 
 ### LARGO Gets Friendzoned!
 
