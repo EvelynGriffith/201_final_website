@@ -12,6 +12,6 @@ tags:
 
 ### More about ARGO Formal!
 
-![Argo Formal Picture](src/assets/img/argo_formal_poster.jpg "Secretary Mordred!")
+![Argo Formal Picture](src\assets\img\pallas.png "Argo formal!")
 
 The formal was on the 15th of April, 2023 from 6 - 10pm. It took place in the Schultz banquet hall on Allegheny College Campus and featured many fun activities such as Party Pigs, Potion Making, Board Games, Video Games, Italian Catering, a Photo Booth, and a Popcorn Machine!
