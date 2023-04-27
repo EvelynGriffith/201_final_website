@@ -17,6 +17,7 @@ eleventyNavigation:
   </head>
   <body>
   <py-script>
+  
       import numpy as np
 
       import sys
