@@ -19,13 +19,9 @@ eleventyNavigation:
   <py-script>
 
       import numpy as np
-
       import sys
-
       import random
-      
       from keras.callbacks import LambdaCallback
-
       from tensorflow.keras.models import Sequential
       from tensorflow.keras.layers import Dense, Activation
       from tensorflow.keras.layers import LSTM
