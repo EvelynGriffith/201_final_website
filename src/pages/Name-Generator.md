@@ -9,7 +9,7 @@ eleventyNavigation:
   key: Name Generator
   order: 1
 ---
-
+ 
 <html>
   <head>
     <script defer src="https://pyscript.net/latest/pyscript.js"></script>
