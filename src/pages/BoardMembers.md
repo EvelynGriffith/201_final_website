@@ -8,5 +8,5 @@ subtitle: Come meet the leaders of ARGO!
 emoji: 💻
 eleventyNavigation:
   key: Board Members
-  order: 3
+  order: 2
 ---

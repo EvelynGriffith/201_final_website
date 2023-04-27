@@ -10,5 +10,5 @@ metaDescription: A sample Blog page listing various posts.
 subtitle: A log of our recent events!
 eleventyNavigation:
   key: Recent Events
-  order: 2
+  order: 3
 ---
