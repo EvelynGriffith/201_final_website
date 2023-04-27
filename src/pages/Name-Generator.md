@@ -7,7 +7,7 @@ date: 2017-01-01T00:00:00.000Z
 permalink: /Name-Generator/index.html
 eleventyNavigation:
   key: Name Generator
-  order: 1
+  order: 6
 ---
  
 <html>
@@ -17,7 +17,7 @@ eleventyNavigation:
   </head>
   <body>
   <py-script>
-  
+
       import numpy as np
 
       import sys
