@@ -1,16 +1,16 @@
 ---
-title: Theme customizations
+title: ARGO Formal!
 date: 2020-10-15T12:23:39.598Z
-summary: Modify Fernfolio to meet your needs
+summary: ARGO Formal was April 15th, 2023
 tags:
-  - environment
-  - sport
+  - Fun!
+  - Formal
+  - Informal
+  - Party Pigs
+  - Potion Making
 ---
 
-### How do I edit content?
-Once your site is deployed and configured, add `/admin` to the end of the url (not using localhost) and hit refresh. From there, you should be able to login and see see the content management dashboard. You should be able to change most content here (e.g. page text, images, logo, articles, projects, etc.).
+### More about ARGO Formal!
+The formal was on the 15th of April, 2023 from 6 - 10pm. It took place in the Schultz banquet hall on Allegheny College Campus and featured many fun activities such as Party Pigs, Potion Making, Board Games, Video Games, Italian Catering, a Photo Booth, and a Popcorn Machine!
 
-### Further customizations
-If you want to take your customizations further, you will need to modify the project source code. Some customizations, like changing theme colors and fonts, are straightforward (those can be modified in the `variables.scss` file). Other customizations will require more in-depth solutions.
-
-If you get stuck or just have a question, feel free to create a [Github issue](https://github.com/TylerMRoderick/fernfolio-11ty-template/issues) and I will try to point you in the right direction.
+![Argo Formal Picture](src\assets\img\ARGO_formal_poster.png "Secretary Mordred!")
