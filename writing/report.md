@@ -47,6 +47,7 @@ In the `src/pages` directory:
 | Recent Events page, Recent events articles displaying                          | Yes           |
 | Meet the Board page, clickable board member buttons to specific member pages   | Yes           |
 | Board member pages, View All Members button taking back to Meet the Board page | Yes           |
+| From event article, back button to view all recent events                      | Yes           |
 | Contact Page, Send a message to the club                                       | Yes           |
 
 TODO: include commands needed to run and test your project
