@@ -17,7 +17,7 @@ TODO: include program input and output and output of test cases in code blocks
 
 #### Input (list directories and files with info)
 
-In the src/pages directory
+In the `src/pages` directory:
 
 - about.md
 - BoardMembers.md
