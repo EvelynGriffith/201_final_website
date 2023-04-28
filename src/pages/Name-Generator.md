@@ -17,12 +17,19 @@ eleventyNavigation:
   </head>
   <body>
   <py-script>import numpy as np
+      
       import sys
+      
       import random
+      
       from keras.callbacks import LambdaCallback
+      
       from tensorflow.keras.models import Sequential
+      
       from tensorflow.keras.layers import Dense, Activation
+      
       from tensorflow.keras.layers import LSTM
+      
       from tensorflow.keras.optimizers import RMSprop
 
       with open('data/masc_brit_names.txt', 'r') as file:
