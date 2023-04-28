@@ -1,9 +1,11 @@
-import random 
+# using randint()
+import random
 
-def give_name(): 
-    with open("generated_names.txt", "r") as file:
-        alltext = file.read():
-        words = list(map(str, alltext.split(,)))
-    print(random.choice(words))
-
-give_name()
+# open file
+with open("generated_names.txt", "r") as file:
+    data = file.read()
+    words = data.split(",")
+    # Generating a random number for word position
+    word_pos = random.randint(0, len(words) - 1)
+    print("Position:", word_pos)
+    print("Word at position:", words[word_pos])
