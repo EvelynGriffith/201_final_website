@@ -16,9 +16,7 @@ eleventyNavigation:
     <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css"/>
   </head>
   <body>
-  <py-script>
-
-      import numpy as np
+  <py-script>import numpy as np
       import sys
       import random
       from keras.callbacks import LambdaCallback
