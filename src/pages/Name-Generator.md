@@ -11,12 +11,12 @@ eleventyNavigation:
 ---
  
 <html>
-  <head>
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css"/>
-  </head>
-  <body>
-  <py-script>
+<head>
+<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css"/>
+</head>
+<body>
+<py-script>
     import numpy as np
     import sys
     import random
@@ -137,6 +137,6 @@ eleventyNavigation:
         return generated
 
     print(generate_text(500, .9))
-  </py-script>
-  </body>
+</py-script>
+</body>
 </html>
