@@ -15,14 +15,24 @@ Our website includes languags such as JavaScript, SCSS, Nunjucks, Python, and a 
 
 TODO: include program input and output and output of test cases in code blocks
 
-Input (list directories and files with info):
+#### Input (list directories and files with info)
 
-Output (screenshots of the website):
+In the src/pages directory
+
+- about.md
+- BoardMembers.md
+- contact.md
+- Inventory-and-google-drive.md
+- Name-Generator.md
+- RecentEvents.md
+
+#### Output (screenshots of the website)
+
 ![ARGO_main_page](../images/ARGO_mainpage.png)
 ![ARGO_zoom_out](../images/ARGO_zoom_out.png)
 ![ARGO_recent_events_page](../images/ARGO_recenteventspage.png)
 
-Testing ( table of functionalities / put through application that tests user experience)
+#### Testing ( table of functionalities / put through application that tests user experience)
 
 | Functionality                                                                  | Does it work? |
 |--------------------------------------------------------------------------------|---------------|
