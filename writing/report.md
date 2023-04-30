@@ -8,7 +8,6 @@
 
 ## Implementation of your project
 
-TODO: include information about technical details of your project, including all tools and programming languages used.
 Our website includes languags such as JavaScript, SCSS, Nunjucks, Python, and a small amount of HTML. We are using the platform Netlify to help produce our website. We started with a Netlify template but had to customize and personalize to fit our goals. We customized aspects such as the website icon, main image, the information on the board members and the club, and event articles. Parts we had to impliment ourselves included a new page for the name generator itself. We also added a page with important club links such as the Google Drive.
 
 ## Evaluation and Testing of your Program
@@ -19,26 +18,26 @@ TODO: include program input and output and output of test cases in code blocks
 
 In the `src/pages` directory:
 
-- about.md
-- BoardMembers.md
-- contact.md
-- Inventory-and-google-drive.md
-- Name-Generator.md
-- RecentEvents.md
+- `about.md`
+- `BoardMembers.md`
+- `contact.md`
+- `Inventory-and-google-drive.md`
+- `Name-Generator.md`
+- `RecentEvents.md`
 
 In the `src/posts` directory:
-- customizations.md
-- fifth_post.md
-- fourthpost.md
-- secondpost.md
-- thirdpost.md
+- `customizations.md`
+- `fifth_post.md`
+- `fourthpost.md`
+- `secondpost.md`
+- `thirdpost.md`
 
 In the `src/projects` directory:
-- first-project.md
-- fourth-project.md
-- second-project.md
-- third-project.md
-- vue-component.md
+- `first-project.md`
+- `fourth-project.md`
+- `second-project.md`
+- `third-project.md`
+- `vue-component.md`
 
 #### Output (screenshots of the website)
 
@@ -68,7 +67,7 @@ TODO: include commands needed to run and test your project
 
 ## Description of the challenges that you faced and how you resolved them
 
-TODO
+We had several bug fixes that had to be made with the redirecting buttons on the webpage such as the back bottons and the view all buttons. We found out the reason they did not work was because  they were attached to dead links that we had forgoten to change. We were able to fix them by going file by file and finding where the old unused link was and changed it to our new page titles.
 
 ## If worked in a team, description of the way in which you and your team members shared the project workload
 
