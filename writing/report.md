@@ -26,6 +26,20 @@ In the `src/pages` directory:
 - Name-Generator.md
 - RecentEvents.md
 
+In the `src/posts` directory:
+- customizations.md
+- fifth_post.md
+- fourthpost.md
+- secondpost.md
+- thirdpost.md
+
+In the `src/projects` directory:
+- first-project.md
+- fourth-project.md
+- second-project.md
+- third-project.md
+- vue-component.md
+
 #### Output (screenshots of the website)
 
 ![ARGO_main_page](../images/ARGO_mainpage.png)
