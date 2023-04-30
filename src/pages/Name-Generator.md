@@ -13,13 +13,13 @@ eleventyNavigation:
     
         
 <html>
-    <py-config>
+    <py-script>
         plugins = [
             "https://pyscript.net/latest/plugins/python/py_tutor.py"
         ]
         [[fetch]]
         files = ["src\_data\random_names.py"]
-    </py-config>
+    </py-script>
     <div style="margin-right: 3rem">
         <py-repl id="my-repl" auto-generate="true"> </py-repl>
     </div>
