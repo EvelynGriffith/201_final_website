@@ -4,7 +4,7 @@
 
 ## Design of your project
 
-TODO: include a diagram
+![ARGO website flowchart](../images/ARGO_flowchart.png)
 
 ## Implementation of your project
 
