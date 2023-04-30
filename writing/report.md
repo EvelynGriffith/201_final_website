@@ -4,7 +4,7 @@
 
 ## Design of your project
 
-![ARGO website flowchart](../images/ARGO_flowchart.png)
+![ARGO website flowchart](../images/ARGO_flowchart.jpg)
 
 ## Implementation of your project
 
