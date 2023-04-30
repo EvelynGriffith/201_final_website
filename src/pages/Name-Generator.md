@@ -17,7 +17,7 @@ eleventyNavigation:
         "https://pyscript.net/latest/plugins/python/py_tutor.py"
     ]
     [[fetch]]
-    files = ["./random_names.py"]
+    files = ["src\_data\random_names.py"]
 </py-config>
 <div style="margin-right: 3rem">
     <py-repl id="my-repl" auto-generate="true"> </py-repl>
