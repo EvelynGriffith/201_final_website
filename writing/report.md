@@ -12,8 +12,6 @@ Our website includes languags such as JavaScript, SCSS, Nunjucks, Python, and a 
 
 ## Evaluation and Testing of your Program
 
-TODO: include program input and output and output of test cases in code blocks
-
 #### Input (list directories and files with info)
 
 In the `src/pages` directory:
@@ -62,8 +60,6 @@ In the `src/projects` directory:
 | Board member pages, View All Members button taking back to Meet the Board page | Yes           |
 | From event article, back button to view all recent events                      | Yes           |
 | Contact Page, Send a message to the club                                       | Yes           |
-
-TODO: include commands needed to run and test your project
 
 ## Description of the challenges that you faced and how you resolved them
 
