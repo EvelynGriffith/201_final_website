@@ -17,7 +17,7 @@ eleventyNavigation:
 </py-config>
 
 <section class="pyscript">
-<py-script>
+    <py-script>
         import random
         # open file
         with open("generated_names.txt", "r") as file:
@@ -27,5 +27,5 @@ eleventyNavigation:
         word_pos = random.randint(0, len(words) - 1)
         print("Position:", word_pos)
         print("Word at position:", words[word_pos])
-</py-script>
+    </py-script>
 </section>
