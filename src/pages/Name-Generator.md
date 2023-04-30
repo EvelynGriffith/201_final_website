@@ -10,18 +10,18 @@ eleventyNavigation:
   order: 6
 ---
  
-<html>
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+<py-config>
+    plugins = [
+        "https://pyscript.net/latest/plugins/python/py_tutor.py"
+    ]
+</py-config>
 
-<py-script>
-    import random
-    def give_name():
-        with open("generated_names.txt", "r") as file:
-            alltext = file.read():
-            words = list(map(str, alltext.split(,)))
-        print(random.choice(words))
-
-    give_name()
-</py-script>
-</html>
+<section class="pyscript">
+    Hello world! <br>
+    This is the current date and time, as computed by Python:
+    <py-script>
+        from datetime import datetime
+        now = datetime.now()
+        display(now.strftime("%m/%d/%Y, %H:%M:%S"))
+    </py-script>
+</section>
