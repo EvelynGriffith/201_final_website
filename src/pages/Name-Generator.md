@@ -11,12 +11,11 @@ eleventyNavigation:
 ---
  
 <html>
-<head>
-<script defer src="https://pyscript.net/latest/pyscript.js"></script>
-<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css"/>
-</head>
-<body>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+
 <py-script>
+    import random
     def give_name():
         with open("generated_names.txt", "r") as file:
             alltext = file.read():
@@ -25,5 +24,4 @@ eleventyNavigation:
 
     give_name()
 </py-script>
-</body>
 </html>
