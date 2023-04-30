@@ -17,9 +17,7 @@ eleventyNavigation:
 </head>
 <body>
 <py-script>
-    import random
-
-    def give_name(): 
+    def give_name():
         with open("generated_names.txt", "r") as file:
             alltext = file.read():
             words = list(map(str, alltext.split(,)))
