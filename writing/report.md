@@ -2,7 +2,7 @@
 
 ## Report by Pallas Cain and Evelyn Griffith
 
-Website Link: [https://master--mellifluous-druid-986fb4.netlify.app/](https://alleghenyargo.netlify.app/)
+Website Link: [https://alleghenyargo.netlify.app/](https://alleghenyargo.netlify.app/)
 
 ## Design of your project
 
