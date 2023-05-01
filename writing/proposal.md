@@ -2,8 +2,7 @@
 
 Allegheny Role-Play and Gaming Organization (ARGO) Website
 
-Website: Link <https://master--mellifluous-druid-986fb4.netlify.app/>
-
+Website: Link [<https://master--mellifluous-druid-986fb4.netlify.app/>](https://alleghenyargo.netlify.app/)
 ## Pallas Cain and Evelyn Griffith
 
 ## Description of the Main Idea
