@@ -11,37 +11,13 @@ eleventyNavigation:
 ---
 
 <html>
-    <head>
-      <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-      <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-      <py-env>
-        - paths:
-          - /example.py
-      </py-env>
-    </head>
-
+  <head>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+  </head>
   <body>
-    <h1>Your Name is:</h1>
     <py-script>
-import random
-
-with open("generated_names.txt", "r") as file:
-    data = file.read()
-    words = data.split(",")
-    # Generating a random number for word position
-    word_pos = random.randint(0, len(words) - 1)
-    print("Position:", word_pos)
-    print("Word at position:", words[word_pos])
+        print('Hello, World!')
     </py-script>
   </body>
 </html>
-
-<!-- <html>
-    <body>
-        <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
-            <py-script>
-                files = ["src\_data\random_names.py"]
-            </py-script>
-    </body>
-</html> -->
