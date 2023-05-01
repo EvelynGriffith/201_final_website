@@ -9,4 +9,4 @@ summary: Come meet your Vice President!
 
 ### Vice President
 
-Add some information about Ethan and what he does!
+Ethan majors in math and loves graph theory!
