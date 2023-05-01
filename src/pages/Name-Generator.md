@@ -14,19 +14,21 @@ eleventyNavigation:
   <head>
     <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
     <script defer src="https://pyscript.net/latest/pyscript.js"></script>
-    <py-env>
-    - paths:/src/pages/generated_names.txt
+    <py-env> 
+        - random
+        - paths:
+            - /src\pages\generated_names.txt
     </py-env>
   </head>
   <body>
     <py-script>
-import random
-with open("generated_names.txt", "r") as file:
-    data = file.read()
-    words = data.split(",")
-    word_pos = random.randint(0, len(words) - 1)
-    print("Position:", word_pos)
-    print("Word at position:", words[word_pos])
+    import random
+    with open("generated_names.txt", "r") as file:
+        data = file.read()
+        words = data.split(",")
+        word_pos = random.randint(0, len(words) - 1)
+        print("Position:", word_pos)
+        print("Word at position:", words[word_pos])
     </py-script>
   </body>
 </html>
