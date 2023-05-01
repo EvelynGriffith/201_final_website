@@ -9,7 +9,7 @@ summary: Come meet your fearless leader, Pallas-Athena Cain!
 
 ### About Pallas
 
-Add info about Pallas here as well as some info about what she does.
+Pallas is a Computer Science and Art Science and Innovation double major and she loves to collect board games!
 
 ![Picture of Pallas](/src/assets/img/pallas.png "President Pallas-Athena")
 
