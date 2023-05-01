@@ -25,7 +25,7 @@ eleventyNavigation:
     <py-script>
         import random
 
-        with open("generated_names.txt", "r") as file:
+        with open("https://github.com/EvelynGriffith/201_final_website/blob/master/src/pages/generated_names.txt", "r") as file:
             data = file.read()
             words = data.split(",")
             # Generating a random number for word position
