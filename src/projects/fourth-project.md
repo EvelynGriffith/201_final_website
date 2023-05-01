@@ -9,7 +9,7 @@ summary: Come meet our PR Frenelle
 
 ### About Frenelle
 
-Add info about Frenelle here as well as some info about what they do.
+Frenelle is a chemistry major and they love to make art!
 
 ##### Contact Information
 
