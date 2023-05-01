@@ -18,7 +18,6 @@ eleventyNavigation:
   <body>
     <py-script>
 import random
-
 with open("generated_names.txt", "r") as file:
     data = file.read()
     words = data.split(",")
