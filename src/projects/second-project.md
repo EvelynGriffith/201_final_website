@@ -8,4 +8,4 @@ summary: Julia is the Treasurer of ARGO!
 
 ### About Julia
 
-Add info about Julia here as well as some info about what she does.
+Julia is an ES major and she loves cats and the color pink!
