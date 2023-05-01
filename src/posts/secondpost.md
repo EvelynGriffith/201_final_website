@@ -1,9 +1,10 @@
 ---
 title: ARGO Miniature Painting Night
-date: 2020-01-01T08:00:00.000Z
-summary: Febuaruy 22nd, 2023 7pm - 12am
+date: 2020-10-15T12:23:39.598Z
+summary: February 22nd, 2023 7pm - 12am
 tags:
-  - painting
+  - Fun!
+  - Painting
   - Warhammer
   - Board Games
 ---
