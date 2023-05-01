@@ -11,24 +11,21 @@ eleventyNavigation:
 ---
 
 <html>
-  <head>
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
-    <py-env>
-        <!-- - random -->
+    <head>
+      <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+      <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+      <py-env>
         - paths:
-            - /src\pages\generated_names.txt
-    </py-env>
-  </head>
+          - /example.py
+      </py-env>
+    </head>
+
   <body>
+    <h1>Let's print random numbers</h1>
+    <b>Doe's lucky number is <label id="lucky"></label></b>
     <py-script>
-    import random
-    with open("generated_names.txt", "r") as file:
-        data = file.read()
-        words = data.split(",")
-        word_pos = random.randint(0, len(words) - 1)
-        print("Position:", word_pos)
-        print("Word at position:", words[word_pos])
+      from example import generate_random_number
+      pyscript.write('lucky', generate_random_number())
     </py-script>
   </body>
 </html>
