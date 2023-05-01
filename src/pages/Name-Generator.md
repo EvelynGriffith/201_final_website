@@ -25,7 +25,6 @@ eleventyNavigation:
     <h1>Your Name is:</h1>
     <py-script>
         import random
-
         with open("generated_names.txt", "r") as file:
             data = file.read()
             words = data.split(",")
@@ -33,7 +32,7 @@ eleventyNavigation:
             word_pos = random.randint(0, len(words) - 1)
             print("Position:", word_pos)
             print("Word at position:", words[word_pos])
-</py-script>
+    </py-script>
   </body>
 </html>
 
