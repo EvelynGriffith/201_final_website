@@ -21,11 +21,17 @@ eleventyNavigation:
     </head>
 
   <body>
-    <h1>Let's print random numbers</h1>
-    <b>Doe's lucky number is <label id="lucky"></label></b>
+    <h1>Your Name is:</h1>
     <py-script>
-      from example import generate_random_number
-      pyscript.write('lucky', generate_random_number())
+import random
+
+with open("generated_names.txt", "r") as file:
+    data = file.read()
+    words = data.split(",")
+    # Generating a random number for word position
+    word_pos = random.randint(0, len(words) - 1)
+    print("Position:", word_pos)
+    print("Word at position:", words[word_pos])
     </py-script>
   </body>
 </html>
