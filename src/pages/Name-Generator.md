@@ -14,6 +14,7 @@ eleventyNavigation:
     <head>
       <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
       <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+      <link rel="generated_names" href="https://github.com/EvelynGriffith/201_final_website/blob/master/src/pages/generated_names.txt"/>
       <py-env>
         - paths:
           - /generated_names.txt
@@ -25,7 +26,7 @@ eleventyNavigation:
     <py-script>
         import random
 
-        with open("https://github.com/EvelynGriffith/201_final_website/blob/master/src/pages/generated_names.txt", "r") as file:
+        with open("generated_names.txt", "r") as file:
             data = file.read()
             words = data.split(",")
             # Generating a random number for word position
