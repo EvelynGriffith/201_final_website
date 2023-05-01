@@ -55,7 +55,7 @@ In the `src/projects` directory:
 | From main page, view all board members button takes to board members page      | Yes           |
 | From main page, view all recent events button takes to recent events page      | Yes           |
 | Google Drive Links page, links working                                         | Yes           |
-| Name Generator page, Name Generator working                                    | No            |
+| Name Generator page, Name Generator working                                    | Yes           |
 | About page, Display information working                                        | Yes           |
 | Recent Events page, Recent events articles displaying                          | Yes           |
 | Meet the Board page, clickable board member buttons to specific member pages   | Yes           |
