@@ -10,28 +10,4 @@ eleventyNavigation:
   order: 6
 ---
 
-<html>
-    <head>
-      <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-      <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-      <link rel="generated_names" href="https://github.com/EvelynGriffith/201_final_website/blob/master/src/pages/random_names.py"/>
-      <!-- <py-env>
-        - paths:
-          - /generated_names.txt
-      </py-env> -->
-    </head>
-
-  <body>
-    <h1>Your Name is:</h1>
-    <py-script>
-        <!-- import random
-        with open("generated_names.txt", "r") as file:
-            data = file.read()
-            words = data.split(",")
-            # Generating a random number for word position
-            word_pos = random.randint(0, len(words) - 1) -->
-            print("Position:", word_pos)
-            print("Word at position:", words[word_pos])
-    </py-script>
-  </body>
-</html>
+<a href="https://colab.research.google.com/drive/16flDDiVnOTcocdOTxD5NLTtmR_JPkK0M?usp=sharing" target="_blank">ARGO Quick Name Generator</a><br><br><a href="https://colab.research.google.com/drive/19t8f7de__eX7pLMw7bIigw0M_3_JTuBD?usp=sharing" target="_blank">ARGO Name Generator AI (Training Mode)</a></h5>
