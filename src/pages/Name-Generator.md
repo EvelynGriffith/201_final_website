@@ -10,22 +10,38 @@ eleventyNavigation:
   order: 6
 ---
 
-<!-- <html>
-  <head>
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
-  </head>
-  <body>
-    <py-script>
-        
-    </py-script>
-  </body>
-</html> -->
-
 <html>
-  <head>
-    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-  </head>
-  <py-repl id="my-repl" auto-generate=true> </py-repl>
+    <head>
+      <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+      <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+      <py-env>
+        - paths:
+          - /generated_names.txt
+      </py-env>
+    </head>
+
+  <body>
+    <h1>Your Name is:</h1>
+    <py-script>
+        import random
+
+        with open("generated_names.txt", "r") as file:
+            data = file.read()
+            words = data.split(",")
+            # Generating a random number for word position
+            word_pos = random.randint(0, len(words) - 1)
+            print("Position:", word_pos)
+            print("Word at position:", words[word_pos])
+</py-script>
+  </body>
 </html>
+
+<!-- <html>
+    <body>
+        <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+            <py-script>
+                files = ["src\_data\random_names.py"]
+            </py-script>
+    </body>
+</html> -->
