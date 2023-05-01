@@ -16,9 +16,7 @@ eleventyNavigation:
     <script defer src="https://pyscript.net/latest/pyscript.js"></script>
   </head>
   <body>
-    <py-script>
-        print('Hello, World!')
-    </py-script>
+    <py-script>print('Hello, World!')</py-script>
   </body>
 </html>
 
