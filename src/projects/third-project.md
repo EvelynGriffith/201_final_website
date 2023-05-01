@@ -9,6 +9,6 @@ summary: Come meet your brand new secretary!
 
 ### About Mordred
 
-Add some information about Mordred!
+Mordred majors in Computer Science and loves dragons!
 
 ![Picture of Mordred](/src/assets/img/mordred.jpg "Secretary Mordred!")
