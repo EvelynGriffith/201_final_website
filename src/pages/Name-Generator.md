@@ -16,7 +16,7 @@ eleventyNavigation:
       <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
       <py-env>
         - paths:
-          - /example.py
+          - /generated_names.txt
       </py-env>
     </head>
 
