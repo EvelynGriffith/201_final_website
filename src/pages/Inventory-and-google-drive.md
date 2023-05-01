@@ -9,4 +9,4 @@ eleventyNavigation:
   order: 5
 ---
 
-<a href="https://drive.google.com/drive/folders/1RZt1BYfB53kOAyApI1Lb6WCSpY0EQ1ji?usp=share_link" target="_blank">ARGO's Google Drive</a><br><br><a href="https://docs.google.com/spreadsheets/d/1JOJ8n2lsqkcz6rXkGZgr_XLZlslDUwCXhgdrO-43J8Y/edit?usp=share_link" target="_blank">ARGO's Inventory!</a></h5>
+<a href="https://drive.google.com/drive/folders/1RZt1BYfB53kOAyApI1Lb6WCSpY0EQ1ji?usp=share_link" target="_blank">ARGO's Google Drive</a><br><br><a href="https://docs.google.com/spreadsheets/d/1JOJ8n2lsqkcz6rXkGZgr_XLZlslDUwCXhgdrO-43J8Y/edit?usp=share_link" target="_blank">ARGO's Inventory</a></h5>
