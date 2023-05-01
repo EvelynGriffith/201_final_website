@@ -57,9 +57,10 @@ In the `src/projects` directory:
 | From main page, view all board members button takes to board members page      | Yes           |
 | From main page, view all recent events button takes to recent events page      | Yes           |
 | Google Drive Links page, links working                                         | Yes           |
-| Name Generator page, Name Generator working                                    | Yes           |
+| Name Generator page, Name Generator links working                              | Yes           |
 | About page, Display information working                                        | Yes           |
 | Recent Events page, Recent events articles displaying                          | Yes           |
+| Recent Events page, Recent events tags back button working                     | Yes           |
 | Meet the Board page, clickable board member buttons to specific member pages   | Yes           |
 | Board member pages, View All Members button taking back to Meet the Board page | Yes           |
 | From event article, back button to view all recent events                      | Yes           |
@@ -75,4 +76,4 @@ Another big issue we ran into was with the name generator. Adding the Python cod
 
 We split the workload in half when it came to customization and we made design choices as a team. All the photos and information on the club came directly from Pallas since she is the president. Pallas wrote all the details about the club to be put on the website. Evelyn worked a lot with making the different page structures work and adding the website's functionalities. She also figured out how to get the website running online through the Netlify platform.
 
-Pallas made the AI that generated the names for the name_generator page of the website. Both of us had to work together to figure out how to make the name generator accessible to the public user, even though we opted to not put it directly onto our website, but rather use an outer source to implement the program. Pallas also worked on testing the website and making the website diagram. Pallas and Evelyn both worked on debugging the website and both were responsible for writing/editing the report.
+Pallas made the AI that generated the names for the name_generator page of the website. Both of us had to work together to figure out how to make the name generator accessible to the public user, even though we opted to not put it directly onto our website, but rather use an outer source to implement the program. Pallas made the Google Colabs for the name generator programs and linked them. Pallas also worked on testing the website and making the website diagram. Pallas and Evelyn both worked on debugging the website and both were responsible for writing/editing the report.
