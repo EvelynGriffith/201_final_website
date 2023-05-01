@@ -14,8 +14,8 @@ eleventyNavigation:
   <head>
     <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
     <script defer src="https://pyscript.net/latest/pyscript.js"></script>
-    <py-env> 
-        - random
+    <py-env>
+        <!-- - random -->
         - paths:
             - /src\pages\generated_names.txt
     </py-env>
